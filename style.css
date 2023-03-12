@@ -1,0 +1,294 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+html{height:100%}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+/* Header beginning */
+/* Menu's up bar */
+.black-menu-item a:active{
+    color: rgb(239, 239, 243);
+}
+
+.black-menu-item a:visited{
+    color: white;
+}
+
+.black-menu-item a:hover{
+    color: rgb(156, 151, 151);
+}
+
+.black-menu{
+    background-color: #313131;
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+    align-items: center;  
+}
+
+.black-menu-main{
+    margin-left: 140px;
+}
+
+.name-about-contacts{
+    display: flex;
+}
+
+.black-menu-item{
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    color: white;
+    align-items: center;
+}
+
+.fa{
+    color: white;
+    font-size: 13pt;
+    margin-right: 11px;
+}
+
+.black-menu-delivery{
+    display: flex;
+    align-content: center;
+    margin-right: 120px;
+}
+
+/* Search form */
+.menu-search{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 112px;
+    height: 25px;
+}
+
+.search-border{
+    width: 839px;
+    height: 50px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    border: none;
+    margin-left: 20px;
+    width: 839px;
+    outline: none;
+}
+
+.fa-magnifying-glass{
+    margin-left: 15px;
+}
+
+.icons-up-bar i{
+    margin-left: 30px;
+}
+
+.icons-up-bar a:active{
+    color: black;
+}
+
+.icons-up-bar a:visited{
+    color: black
+}
+
+/* Navigation bar */
+.menu-bar{
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 120px;
+    height: 70px;
+    box-shadow: 2px 3px 5px -4px rgba(34, 60, 80, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-bar-items{
+    display: flex;
+    width: 1140px;
+    justify-content: space-around;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+}
+
+.icons{
+    margin-right: 10px;
+}
+
+.menu-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    color: rgba(65, 65, 65, 1);
+}
+
+.menu-text-event{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    color: rgba(215, 68, 68, 1);
+}
+
+.menu-items a:active{
+    color: black;
+}
+
+.menu-items a:visited{
+    color: black
+}
+
+.menu-text-event a:active{
+    color: rgba(215, 68, 68, 1);
+}
+
+.menu-text-event a:visited{
+    color: rgba(215, 68, 68, 1);
+}
+/* Header end */
+
+/* Main start */
+
+/* Banners */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+.main-menu{
+    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 120px;
+}
+
+.main-banners{
+    width: 1140px;
+    height: 450px;
+    background-image: url(img/banner-1.png);
+    background-repeat: no-repeat no-repeat;
+    background-origin: border-box;
+}
+
+.banner-title{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #3C3C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 120px;
+    padding-top: 100px;
+}
+
+.banner-text{
+    margin-top: 15px;
+    margin-left: 121px;
+}
+
+.banner-text p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #343434;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-div{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.button{
+    width: 163px;
+    height: 45px;
+    border: 1px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 12px -3px rgba(34, 60, 80, 0.2);
+}
+
+.button h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    color: #414141;
+}
+
+.sales-hits{
+    margin-top: 30px;
+}
+
+.sales-hits p{
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #414141;
+}
+
+.sales-hits-items{
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hits-items{
+    width: 263px;
+    height: 344;
+}
+
+.fa-heart{
+    margin-left: 230px;
+    
+}
+
+.hits-items-title{
+    margin-top: 54px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #414141;
+}
+
+.hits-items p{
+    margin-top: 6px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #414141;
+}
+
+.hits-price{
+    margin-top: 9px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #414141;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
